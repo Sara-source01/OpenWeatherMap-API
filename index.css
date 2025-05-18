@@ -1,0 +1,19 @@
+  body {
+      font-family: Arial, sans-serif;
+      padding: 1rem;
+      background: #f0f0f0;
+    }
+    input, select, button {
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin: 0.25rem;
+    }
+    #weather {
+      margin-top: 1rem;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 1rem;
+    }

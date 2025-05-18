@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <h2>🌦️ Live Weather Info</h2>
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+    <select id="langSelect">
+      <option value="en">English</option>
+      <option value="pt_br">Português (Brasil)</option>
+    </select>
+    <button onclick="getWeather()">Get Weather</button>
+    <button onclick="clearSavedCity()">🗑️Clear</button>
+
+    <div id="weather"></div>
+    <iframe id="map" style="display: none"></iframe>
+
+    <script src="config.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
